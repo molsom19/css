@@ -1,0 +1,55 @@
+
+body{
+    background-image: linear-gradient(to bottom right,rgb(94, 94, 245),rgb(245, 148, 229),rgb(243, 93, 93),rgb(238, 238, 68)) ;
+}
+.abc{
+    border: solid 1px;
+    display: block;
+    width: 580px;
+    height: 610px;
+    background-color: white;
+    max-width: 900px;
+    margin: auto;
+}
+h1{
+    text-align:justify;
+    text-decoration-color: rgb(236,91,91);
+    font-family: monospace,Arial, sans-serif;
+    font-weight: lighter;
+}
+h4 {
+    max-width: 400px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+h4:before{
+    content:"" ;
+    width: 170px;
+    height: 1px;
+    display: block;
+    background: black;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+}
+h4:after{
+    content: "";
+    width: 170px;
+    height: 1px;
+    display: block;
+    background: black;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+}
+button{
+    display: block;
+    width: 70%;
+    padding: 0.75rem;
+    background: var(--color-green);
+    color: inherit;
+    border-radius: 0px;
+    cursor: pointer;
+    margin-left: 90px;
+}
