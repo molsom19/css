@@ -1,0 +1,17 @@
+hr{
+    margin-left: 0;
+    height: 9px;
+    width: 320px;
+    display: block;
+}
+h3{
+    text-indent: 0%;
+    -webkit-margin-top-collapse: collapse;
+    text-underline-position: below;
+}
+h1{
+    text-justify:newspaper;
+}
+.center{
+    margin-top: 200;
+}
