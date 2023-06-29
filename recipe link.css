@@ -1,0 +1,19 @@
+.dropbtn{
+    background-color: midnightblue;
+    color: floralwhite;
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+#myinput{
+    box-sizing: border-box;
+    background-image: url(/home/admin123/Downloads/mo.jpeg);
+    background-position: 13px 111px;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    padding: 13px 19px 11px 43px;
+    border: none;
+    border-bottom: 1px solid #add;
+}
+#myinput:focus {outline: 3px solid#add;}
